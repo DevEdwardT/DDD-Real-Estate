@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+    <title>DDD - Manhattan</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+
+            <div class="header__logo-box">
+                <img src="img/logo.png" alt="logo" class="header__logo">
+                <h1 class="heading-primary header__heading">DDD</h1>
+            </div>
+
+            <form action="landing.html" class="search">
+
+                <input type="text" class="search__input" placeholder="Search areas">
+                <a href="landing.html" class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </a>
+
+            </form>
+
+            <nav class="user-nav">
+
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">8</span>
+                </div>
+
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="img/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">3</span>
+                </div>
+
+
+                <div class="user-nav__user">
+                    <img src="img/user.jpg" alt="user" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">Sarah</span>
+                </div>
+
+            </nav>
+
+        </header>
+
+
+
+        <nav class="sidebar">
+
+            <ul class="side-nav">
+                <li class="side-nav__item">
+                    <a href="" class="side-nav__link">
+                        <h4 class="side-nav__heading heading-quaternary">Houses</h4>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="" class="side-nav__link">
+                        <h4 class="side-nav__heading heading-quaternary">Premiun Houses</h4>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="" class="side-nav__link">
+                        <h4 class="side-nav__heading heading-quaternary">Rentals</h4>
+                    </a>
+                </li>
+                <li class="side-nav__item">
+                    <a href="" class="side-nav__link">
+                        <h4 class="side-nav__heading heading-quaternary">Premium Rentals</h4>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <main class="main">
+
+            <div class="gallery">
+                
+                    <figure class="gallery__item">
+                        <img src="img/city-2c.jpg" alt="photo" class="gallery__photo gallery__photo--1">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/city-3c.jpg" alt="photo" class="gallery__photo">
+                    </figure>
+                
+                
+                    <figure class="gallery__item">
+                        <img src="img/city-4c.jpg" alt="photo" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="img/city-5c.jpg" alt="photo" class="gallery__photo gallery__photo--2">
+                    </figure>
+                
+            </div>
+
+            <div class="main__content">
+
+                <div class="overview u-margin-bottom-medium">
+
+                    <div class="overview__city u-margin-bottom-medium">
+
+                        <h2 class="heading-secondary overview__heading">Manhattan</h2>
+
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline">Manhattan, New York</button>
+                        </div>
+
+                    </div>
+
+                    <div class="overview__details u-margin-bottom-medium">
+
+                        <h5 class="heading-quinary">The most active city in the world</h5>
+
+                        <p class="overview__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                            fuga accusamus quisquam incidunt, assumenda nulla qui sequi molestiae debitis, reprehenderit
+                            distinctio. </p>
+
+                    </div>
+
+                </div>
+
+                <div class="sales" id="section-sales">
+
+                    <h4 class="heading-quaternary houses__heading">Houses for sale</h4>
+
+                    <div class="houses">
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-1">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $400k
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-2">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $2M
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-3">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $600k
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-4">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $1.4M
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-5">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $820k
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-6">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $2.2M
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-7">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $10M
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-8">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $330k
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="card">
+
+                            <div class="card__side card__side--front card__side--front-9">
+
+                                <div class="card__content--front">
+
+                                    <h4 class="heading-quaternary houses__heading">
+                                        $4M
+                                    </h4>
+
+                                    <p class="houses__paragraph">
+                                        Manhattan, NY
+                                    </p>
+
+                                    <svg class="houses__icon-location">
+                                        <use xlink:href="img/sprite.svg#icon-location-pin"></use>
+                                    </svg>
+
+                                </div>
+
+                            </div>
+
+                            <div class="card__side card__side--back">
+
+                                <div class="card__content--back">
+                                    <div class="card__details">
+                                        <ul>
+
+                                            <li>4 Bedroom</li>
+                                            <li>5 Bathroom</li>
+                                            <li>Pool</li>
+                                            <li>Recently built</li>
+                                            <li>Close to city center</li>
+
+                                        </ul>
+                                    </div>
+                                    <a href="#popup" class="btn btn--primary">Contact</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <footer class="footer u-margin-top-medium">
+
+                    <div class="footer__container">
+
+                        <div class="footer__logo-box">
+                            <img src="img/logo.png" alt="logo" class="footer__logo">
+                            <h1 class="heading-primary footer__heading">DDD</h1>
+                        </div>
+
+                        <div class="footer__content">
+
+                            <div class="footer__navigation">
+                                <ul class="footer__list">
+                                    <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a>
+                                    </li>
+                                    <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="footer__copyright">
+                                Built by <a href="#" class="footer__link">Eddy Tt</a> to learn CSS and SASS.
+                                Copyright &copy; by Eddy TT 2021. Random footer text goes here to occupy more
+                                space.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+                                fuga accusamus quisquam incidunt.
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </footer>
+
+            </div>
+
+        </main>
+
+
+
+    </div>
+
+
+
+    <div class="popup" id="popup">
+
+        <div class="popup__content">
+
+            <a href="#section-sales" class="popup__close">&times;</a>
+
+            <div class="book">
+
+                <div class="book__form">
+                    <form action="#" class="form">
+
+                        <h2 class="heading-secondary u-margin-bottom-small form__heading">Contact us!</h2>
+
+                        <div class="form__group">
+                            <input type="text" class="form__input" id="name" placeholder="Full name" required
+                                autocomplete="off">
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" class="form__input" id="email" placeholder="Email address" required
+                                autocomplete="off">
+                            <label for="name" class="form__label">Email address</label>
+                        </div>
+
+                        <div class="form__group">
+                            <textarea name="text" id="message" cols="30" rows="5" class="form__textarea"
+                                placeholder="Your message..."></textarea>
+                        </div>
+
+                        <a href="#" class="btn btn--primary form__button">Send &rarr;</a>
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
